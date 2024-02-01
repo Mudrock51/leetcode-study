@@ -1,0 +1,9 @@
+Diagnostics:
+  Suppress: '*'
+  ClangTidy:
+    Add: 'modernize*'
+    Remove:
+      - 'modernize-use-trailing-return-type'
+      # 其他要禁用的特定检查可以在这里添加
+
+
